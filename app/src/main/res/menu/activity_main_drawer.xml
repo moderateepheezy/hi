@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat_black"
+            android:title="@string/chat" />
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/ic_blog"
+            android:title="@string/blog" />
+        <item
+            android:id="@+id/nav_pregnancy"
+            android:icon="@drawable/ic_pregnancy_care"
+            android:title="@string/my_baby" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_forum"
+            android:visible="false"
+            android:title="@string/forum" />
+        <item
+            android:id="@+id/nav_symptom_checker"
+            android:icon="@drawable/ic_symptom_checker"
+            android:visible="false"
+            android:title="@string/symptom_checker" />
+        <item
+            android:id="@+id/nav_bmi"
+            android:icon="@drawable/ic_bmi_cal"
+            android:title="@string/bmi_calculator" />
+
+        <item
+            android:id="@+id/nav_ovulation"
+            android:icon="@drawable/ic_ovulatory_calculator"
+            android:visible="false"
+            android:title="@string/ovulatory_calculator" />
+        <item
+            android:id="@+id/nav_find_partner"
+            android:icon="@drawable/ic_find_partner"
+            android:visible="false"
+            android:title="@string/find_partners" />
+        <item
+            android:id="@+id/nav_invite_friend"
+            android:icon="@drawable/ic_invite_friends"
+            android:title="@string/invite_friend" />
+    </group>
+
+    <item android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/nav_how_it_works"
+                android:icon="@drawable/ic_how_it_works"
+                android:visible="false"
+                android:title="@string/how_it_works" />
+            <item
+                android:id="@+id/nav_faqs"
+                android:icon="@drawable/ic_help"
+                android:title="@string/faqs" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/feedback" />
+        </menu>
+    </item>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_account"
+                android:title="@string/profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

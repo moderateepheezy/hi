@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/twelve_12dp"
+    android:paddingTop="@dimen/four_4dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.exolvetechnologies.hidoctor.activities.ForumDetailsActivity"
+    tools:showIn="@layout/activity_forum_details">
+
+    <TextView
+        android:id="@+id/forumTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.SampleDashboard.Item.Title"
+        android:gravity="center_horizontal" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ProgressBar
+                    android:id="@+id/imageDownloadProgress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="true" />
+
+                <ImageView
+                    android:id="@+id/blogImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/two_hundred_200dp"
+                    android:background="@color/blog_card_color"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/twelve_12dp"
+                android:paddingRight="@dimen/twelve_12dp"
+                android:layout_marginBottom="@dimen/twelve_12dp">
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/blogAuthor"
+                            style="@style/Widget.SampleDashboard.Item.Description.Sixteen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/eight_8dp"/>
+                        <TextView
+                            android:id="@+id/blogDate"
+                            style="@style/Widget.SampleDashboard.Item.Description.Sixteen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/shareButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@android:drawable/ic_menu_share"
+                        android:visibility="gone"
+                        style="?buttonBarButtonStyle"
+                        android:layout_gravity="right" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/forumContent"
+                    android:layout_marginTop="@dimen/eight_8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ProgressBar
+                android:id="@+id/fetchCommentsProgress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:progressBarStyleHorizontal"
+                android:visibility="gone"
+                android:indeterminate="true"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/twelve_12dp"
+                android:paddingRight="@dimen/twelve_12dp" >
+                <EditText
+                    android:id="@+id/editTextComment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:hint="@string/post_comment"
+                    android:paddingLeft="@dimen/twelve_12dp"
+                    android:paddingRight="@dimen/twelve_12dp" />
+                <Button
+                    android:id="@+id/btnSubmitComment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/grey_button"
+                    android:text="@string/submit"
+                    android:textColor="@color/send_dark_color"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/commentsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/four_4dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

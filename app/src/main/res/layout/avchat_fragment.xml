@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_marginLeft="5dp"
+		android:layout_marginStart="5dp"
+		android:padding="10dp"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:text="Mins left:"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:id="@+id/time_left"
+			android:text="60"
+			android:layout_gravity="center"
+			android:layout_marginLeft="10dp"
+			android:layout_marginStart="10dp"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+	<FrameLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1">
+	    
+	    <GridView
+			android:id="@+id/video_grid_view"
+			android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+			android:padding="@dimen/grid_item_padding"
+	        android:stretchMode="columnWidth"
+	        android:clipChildren="true"
+	        android:numColumns="2"/>
+		
+		<com.oovoo.sdk.api.ui.VideoPanel
+		    android:id="@+id/full_screen_video_panel_remoteview"
+		    android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:padding="4dip"
+	        android:visibility="gone">
+		</com.oovoo.sdk.api.ui.VideoPanel>
+		<com.exolvetechnologies.hidoctor.ui.CustomVideoPanel
+			android:id="@+id/full_screen_custom_panel_remoteview"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="4dip"
+			android:visibility="gone"
+			custom:isCircleShape="false">
+		</com.exolvetechnologies.hidoctor.ui.CustomVideoPanel>
+		
+		<ImageView
+	        android:id="@+id/full_screen_avatar_image_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:src="@mipmap/an_im_vc_place_holder"
+	        android:background="@color/image_holder_bg"
+	        android:visibility="gone"/>
+	      
+		<TextView
+			android:id="@+id/full_screen_label"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="top"
+	        android:gravity="center"
+	        android:textColor="@android:color/white"
+	        android:background="@color/black_overlay"
+	        android:singleLine="true"
+	        android:ellipsize="end"
+	        android:visibility="gone"/>
+	</FrameLayout>
+
+	<LinearLayout
+		android:id="@+id/notificationBox"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<ProgressBar
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_wait"/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+		android:id="@+id/call_controll_layout"
+	   	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content"
+	   	android:gravity="bottom"
+	   	android:orientation="horizontal">
+	   
+	   	<include layout="@layout/call_controll" 
+	    	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:layout_weight="1"/>
+	</LinearLayout>
+
+</LinearLayout>

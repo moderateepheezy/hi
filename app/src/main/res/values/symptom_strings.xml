@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc01">Abnormal vaginal discharge</string>
+    <string name="sc02">Anger outbursts</string>
+    <string name="sc03">Avoidance of people/activities related to traumatic event</string>
+    <string name="sc04">Back pain</string>
+    <string name="sc05">Bloating</string>
+    <string name="sc06">Blood in stool</string>
+    <string name="sc07">Blood in the urine</string>
+    <string name="sc08">Blood/mucus on swelling from anus</string>
+    <string name="sc09">Blurry vision</string>
+    <string name="sc10">Body ache</string>
+    <string name="sc11">Breast pain &amp; swelling</string>
+    <string name="sc12">Breast warmth</string>
+    <string name="sc13">Breathlessness at rest</string>
+    <string name="sc14">Breathlessness lying down</string>
+    <string name="sc15">Chest pain</string>
+    <string name="sc16"></string>
+    <string name="sc17"></string>
+    <string name="sc18"></string>
+    <string name="sc19"></string>
+    <string name="sc20"></string>
+    <string name="sc21"></string>
+    <string name="sc22"></string>
+    <string name="sc23"></string>
+    <string name="sc24"></string>
+    <string name="sc25"></string>
+    <string name="sc26"></string>
+    <string name="sc27"></string>
+    <string name="sc28"></string>
+    <string name="sc29"></string>
+    <string name="sc30"></string>
+    <string name="sc31"></string>
+    <string name="sc32"></string>
+    <string name="sc33"></string>
+    <string name="sc34"></string>
+    <string name="sc35"></string>
+</resources>

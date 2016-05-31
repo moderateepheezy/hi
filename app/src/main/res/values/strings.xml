@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">HiDoctor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Drawer List Items-->
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="ovulatory_calculator">Ovulatory Calculator</string>
+    <string name="pregnancy_care">Pregnancy Care Info</string>
+    <string name="find_partners">Find HiDoctor Partners</string>
+    <string name="invite_friend">Invite Friends</string>
+    <string name="blog">Blog</string>
+    <string name="chat">Chat</string>
+    <string name="faqs">FAQs</string>
+    <string name="forum">Forum</string>
+    <string name="symptom_checker">Symptom Checker</string>
+    <string name="feedback">Feedback</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Log Out</string>
+    <string name="how_it_works">How it works</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="user_name">Email</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_password">Invalid user name or password</string>
+    <string name="post_comment">Post a comment</string>
+    <string name="submit">Submit</string>
+    <string name="subject">HiDoctor… doctors just a click away</string>
+    <string name="message">Download it now on Google Play:</string>
+    <string name="gplay_web_url">https://play.google.com/store/apps/details?id=com.exolvetechnologies.hidoctor</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="buy_more">Buy More</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="large_text">"A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic."</string>
+
+    <!---ooVoo Strings-->
+    <string name="username_label">Username:</string>
+    <string name="login_title">Log in</string>
+    <string name="start">Start</string>
+    <string name="conference_id_label">Conference ID:</string>
+    <string name="display_name_label">Display Name:</string>
+    <string name="join_title">Join</string>
+    <string name="menu_settings">Settings</string>
+    <string name="settings_base_url">Base URL:</string>
+    <string name="app_id">App ID:</string>
+    <string name="app_token">App Token:</string>
+    <string name="log_level">SDK Log Level:</string>
+    <string name="sdk_version">SDK Version:</string>
+    <string name="authorizing">Authorizing</string>
+    <string name="logging_in">Logging in</string>
+    <string name="joining_av_chat">Joining AV chat</string>
+    <string name="me">Me</string>
+    <string name="front_camera">Front camera</string>
+    <string name="back_camera">Back camera</string>
+    <string name="mute_camera">Mute camera</string>
+    <string name="change_camera">Change camera</string>
+    <string name="resolution">Resolution</string>
+    <string name="audio_routes">Audio Routes</string>
+    <string name="filters">Filters</string>
+    <string name="enter_session_id">Enter conference id</string>
+    <string name="enter_display_name">Enter display name</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_conference_id_and_display_name">Please enter conference id and display name</string>
+    <string name="enter_username_toast">Please enter username</string>
+    <string name="no_internet">No Internet Connection. Please check your internet connection or try again later.</string>
+    <string name="enter_conference_id">Enter conference ID</string>
+    <string name="wrong_conference_id">Conference ID is not valid</string>
+    <string name="enter_conference_display_name">Please enter display name</string>
+    <string name="session_id">Session ID</string>
+    <string name="info_participants">Participants info</string>
+    <string name="menu_information">Information</string>
+    <string name="join_session">Join Session</string>
+    <string name="display_name_too_long">Display name is too long</string>
+    <string name="wrong_username_id">Username is not valid</string>
+    <string name="video_cannot_be_viewed">Video cannot be viewed!</string>
+    <string name="device_is_not_supported">Device is not supported!</string>
+    <string name="start_call_title">Call</string>
+    <string name="call_receiver_label">Call receiver Id:</string>
+    <string name="enter_receiver_id">Enter receiver Id</string>
+    <string name="enter_call_receiver">Enter call receiver</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_title">Add</string>
+    <string name="call_receivers">Call receivers:</string>
+    <string name="calling">Calling</string>
+    <string name="answer">Answer</string>
+    <string name="decline">Decline</string>
+    <string name="no_receivers">Please add or enable up to 4 receivers!</string>
+    <string name="room_title">Room</string>
+    <string name="make_call_title">Make call</string>
+    <string name="use_custom_render">Use custom video render</string>
+    <string name="min_username_length">username must contain at least 6 characters</string>
+	<string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+    <string name="push_title">Push</string>
+    <string name="send_title">Send</string>
+    <string name="enter_push_receiver">Enter push receiver</string>
+    <string name="push_receivers">Push notification receivers:</string>
+    <string name="enter_text_push">Enter text to push</string>
+    <string name="all_receivers_offline">All receivers offline</string>
+    <string name="fail_to_send_message">Sending of message fail</string>
+    <string name="push_notification_sent">Push notification sent</string>
+    <string name="push_notification_error">Error sending push notification</string>
+    <string name="unknown">Unknown camera</string>
+    <string name="unsubscribe_title">Unsubscribe</string>
+    <string name="user_unsubscribed">User unsubscribed</string>
+    <string name="user_unsubscribe_error">Error to unsubscribe</string>
+    <string name="no_token_to_unsubscribe">There is no token to unsubscribe</string>
+    <string name="characters_missing">Characters missing</string>
+    <string name="user_offline">User %s is offline</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_chat_type">Chat Types</string>
+    <string name="title_activity_chat_category">Chat Categories
+    </string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="title_activity_blog_list">Blog List</string>
+    <string name="title_activity_blog_details">Blog Details</string>
+    <string name="title_activity_text_chat">Text Chat</string>
+    <string name="title_activity_bmi">BMI</string>
+    <string name="balance_wait">Checking your balance…</string>
+    <string name="chat_wait">A doctor joining… please wait</string>
+    <string name="title_activity_symptom_checker">Symptom Checker</string>
+    <string name="my_baby">My Baby &amp; I</string>
+    <string name="title_activity_faqs">FAQs</string>
+    <string name="title_activity_my_baby_and_i">MyBabyAndIActivity</string>
+    <string name="title_activity_forum_thread">Forum Topic</string>
+    <string name="title_activity_forum_details">Forum Details</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="undo_sub">Subscribed</string>
+    <string name="more">More…</string>
+    <string name="title_activity_pregnancy_care_details">Care Details</string>
+
+</resources>

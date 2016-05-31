@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.exolvetechnologies.hidoctor.fragments.PregnancyCareFragment">
+
+    <ProgressBar
+        android:id="@+id/careProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@drawable/orange_button"
+        android:text="@string/subscribe"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:paddingLeft="@dimen/eight_8dp"
+        android:paddingRight="@dimen/eight_8dp"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:layout_marginTop="@dimen/twelve_12dp" />
+
+    <Button
+        android:id="@+id/unsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@android:color/transparent"
+        android:text="@string/undo_sub"
+        android:paddingLeft="@dimen/eight_8dp"
+        android:paddingRight="@dimen/eight_8dp"
+        android:drawableLeft="@drawable/ic_subscribed"
+        android:layout_marginTop="@dimen/twelve_12dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/careList"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getCareProgress"
+        style="?android:progressBarStyleLarge"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

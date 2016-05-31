@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/grid_item_padding"
+    android:orientation="vertical" >
+    
+	<com.exolvetechnologies.hidoctor.ui.VideoPanelRect
+	    android:id="@+id/video_panel_view"
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+	</com.exolvetechnologies.hidoctor.ui.VideoPanelRect>
+    <com.exolvetechnologies.hidoctor.ui.CustomVideoPanel
+        android:id="@+id/custom_panel_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        custom:isCircleShape="false">
+    </com.exolvetechnologies.hidoctor.ui.CustomVideoPanel>
+	
+	<ImageView
+        android:id="@+id/avatar_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/an_im_vc_place_holder"
+        android:background="@color/image_holder_bg" />
+	
+	<TextView
+        android:id="@+id/display_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:background="@color/black_overlay"/>
+	
+	<TextView
+	    android:id="@+id/no_video_message"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:background="@color/half_transparent_grey"
+	    android:visibility="gone" />
+	
+</FrameLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- The CardView needs to be wrapped to ensure spacing is applied correctly. -->
+
+    <android.support.v7.widget.CardView
+        style="@style/Widget.SampleDashboard.Card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            style="@style/Widget.SampleDashboard.Item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@android:id/text1"
+                style="@style/Widget.SampleDashboard.Item.Title"
+                android:text="Condoms are for babies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@android:id/text2"
+                style="@style/Widget.SampleDashboard.Item.Description"
+                android:textSize="14sp"
+                android:text="@string/large_text"
+                android:layout_width="match_parent"
+                android:maxLength="160"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginTop="@dimen/eight_8dp">
+
+                <TextView
+                    android:id="@+id/textViewAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.SampleDashboard.Item.Description.Sixteen"
+                    android:textSize="14sp"
+                    android:text="Fikun Aloagun"/>
+
+                <TextView
+                    android:id="@+id/textViewDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.SampleDashboard.Item.Description"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="@dimen/eight_8dp"
+                    android:text="28 Nov 2015"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

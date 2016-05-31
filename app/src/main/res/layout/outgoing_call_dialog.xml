@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dip"
+    android:orientation="horizontal" >
+    
+    <Button
+	    android:id="@+id/cancel_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="10dip"
+	    android:background="@drawable/cancel_button_selector"
+	    android:text="@string/cancel" />
+	    
+    <ProgressBar
+	    android:id="@+id/progressBar"
+	    android:padding="10dip"
+	    style="?android:attr/progressBarStyleSmall"
+	    android:layout_width="48dip"
+	    android:layout_height="48dip"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:indeterminateDrawable="@drawable/progress" >
+	</ProgressBar>
+       
+	<TextView
+       	android:id="@+id/calling"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="@color/text_field_color"
+		android:text="@string/calling"
+		android:textAppearance="?android:attr/textAppearanceSmall">
+   </TextView>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/slqsm"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7" >
+
+        <!-- This is the part that's 70% of the total width. I'm inserting a LinearLayout and buttons. -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            
+
+           
+            
+            <TextView
+                android:id="@+id/error_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                 android:textColor="@android:color/holo_red_dark"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+			
+             <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall" >
+            </TextView>
+            
+            <Button
+                android:id="@+id/reauthorize_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Authorize again" >
+            </Button>
+
+            
+            
+        </LinearLayout>
+        <!-- 70% Width End -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15" >
+    </RelativeLayout>
+
+</LinearLayout>

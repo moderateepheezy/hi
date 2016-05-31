@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="20dp" />
+            <solid android:color="@color/common_plus_signin_btn_text_light_default" />
+            <!-- <stroke android:color="@color/white" android:width="1dp"/>-->
+        </shape>
+    </item>
+</selector>

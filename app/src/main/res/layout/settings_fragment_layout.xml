@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TableLayout
+	 	android:paddingTop="@dimen/main_padding"
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	                
+	    <TableRow android:layout_marginTop="@dimen/row_margin">
+	                            
+			<TextView
+				android:layout_width="wrap_content"
+				android:text="@string/app_token"
+				android:textSize="17sp"
+				android:textColor="@color/text_field_color"
+				android:layout_marginLeft="@dimen/main_margin"
+				android:gravity="center_vertical"
+				android:textAppearance="?android:attr/textAppearanceSmall">
+			</TextView>
+			
+			<EditText
+				android:id="@+id/token_edit_text"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/main_margin"
+				android:layout_marginRight="@dimen/main_margin"
+				android:ems="11"
+		        android:singleLine="true"
+		        android:inputType="textUri"
+		        android:imeOptions="actionDone"
+		        android:textIsSelectable="false"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceSmall" >
+	
+			</EditText>
+		  
+		</TableRow>
+
+		<TableRow android:layout_marginTop="@dimen/row_margin">
+	                            
+			<TextView
+				android:layout_width="wrap_content"
+				android:text="@string/log_level"
+				android:textSize="17sp"
+				android:textColor="@color/text_field_color"
+				android:layout_marginLeft="@dimen/main_margin"
+				android:gravity="center_vertical"
+				android:textAppearance="?android:attr/textAppearanceSmall">
+			</TextView>
+			
+			<Spinner
+	            android:id="@+id/log_level_spinner"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:popupBackground="@color/spinner_color_bg"
+	            android:layout_marginLeft="@dimen/main_margin"
+				android:layout_marginRight="@dimen/main_margin"
+	            android:layout_weight="1"
+	            android:textAppearance="?android:attr/textAppearanceSmall"> 
+	        </Spinner>
+		  
+		</TableRow>
+		
+		<TableRow android:layout_marginTop="@dimen/row_margin">
+	                            
+			<TextView
+				android:layout_width="wrap_content"
+				android:text="@string/sdk_version"
+				android:textSize="17sp"
+				android:textColor="@color/text_field_color"
+				android:layout_marginLeft="@dimen/main_margin"
+				android:gravity="center_vertical"
+				android:textAppearance="?android:attr/textAppearanceSmall">
+			</TextView>
+			
+			<TextView
+	            android:id="@+id/sdk_version_text_view"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="@dimen/main_margin"
+				android:layout_marginRight="@dimen/main_margin"
+	            android:singleLine="true"
+	            android:textIsSelectable="false" 
+	            android:layout_gravity="center_vertical"
+	            android:layout_weight="1"
+	            android:textAppearance="?android:attr/textAppearanceSmall">
+	        </TextView>
+		  
+		</TableRow>
+		
+	</TableLayout>
+
+</LinearLayout>

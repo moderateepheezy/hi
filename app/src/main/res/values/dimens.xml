@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="four_4dp">4dp</dimen>
+    <dimen name="eight_8dp">8dp</dimen>
+    <dimen name="twelve_12dp">12dp</dimen>
+    <dimen name="sixteen_16dp">16dp</dimen>
+    <dimen name="twenty_20dp">20dp</dimen>
+    <dimen name="forty_40dp">40dp</dimen>
+    <dimen name="forty_eight_48dp">48dp</dimen>
+    <dimen name="sixty_60dp">60dp</dimen>
+    <dimen name="seventy_two_72dp">72dp</dimen>
+    <dimen name="eighty_80dp">80dp</dimen>
+    <dimen name="hundred_100dp">100dp</dimen>
+    <dimen name="one_twenty_120dp">120dp</dimen>
+    <dimen name="one_forty_140dp">140dp</dimen>
+    <dimen name="one_sixty_160dp">160dp</dimen>
+    <dimen name="two_hundred_200dp">200dp</dimen>
+    <dimen name="two_eighty_280dp">280dp</dimen>
+    <dimen name="three_seventy_370dp">370dp</dimen>
+
+    <dimen name="sixteen_16sp">16sp</dimen>
+    <dimen name="twenty_20sp">20sp</dimen>
+    <dimen name="twenty_six_26sp">26sp</dimen>
+    <dimen name="forty_two_42sp">42sp</dimen>
+
+    <!--ooVoo dimens-->
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="vc_surface_text_height">26dp</dimen>
+    <dimen name="vc_surface_margin">5dp</dimen>
+    <dimen name="vc_controller_height">55dip</dimen>
+    <dimen name="vc_controller_button_size">42dip</dimen>
+    <dimen name="main_row_height">40dip</dimen>
+    <dimen name="main_row_label_width">120dip</dimen>
+    <dimen name="main_row_text_width">220dip</dimen>
+    <dimen name="main_padding">20dip</dimen>
+    <dimen name="main_margin">20dip</dimen>
+    <dimen name="row_margin">16dip</dimen>
+    <dimen name="grid_item_padding">2dip</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/videoThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/home"
+        android:scaleType="center"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_play_circle_outline" />
+
+    <TextView
+        android:id="@+id/videoTile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/four_4dp"
+        android:paddingTop="@dimen/four_4dp"
+        android:paddingLeft="@dimen/eight_8dp"
+        android:paddingRight="@dimen/eight_8dp"
+        android:textColor="@color/titleTextColor"
+        android:background="@drawable/video_title_background"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

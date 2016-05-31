@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3d71a4</color>
+    <color name="colorPrimaryDark">#3D6BFF</color>
+    <color name="colorAccent">#3D6BFF</color>
+    <color name="titleTextColor">#494040</color>
+    <color name="activity_teal">#009688</color>
+    <color name="videoTitleBackground">#6cf9f6f6</color>
+    <color name="blog_card_color">#9ae9e7e7</color>
+
+    <!--ooVoo Colors-->
+    <color name="black_overlay">#66000000</color>
+    <color name="controller_grey">#EAEAEA</color>
+    <color name="image_holder_bg">#EAEAEA</color>
+
+    <color name="white">#ffffff</color>
+    <color name="text_field_color">#000</color>
+    <color name="text_shadow">#FFF</color>
+    <color name="list_view_bg">#DADFEE</color>
+
+    <color name="send_light_color">#8897BF</color>
+    <color name="send_meduim_color">#5D6CA5</color>
+    <color name="send_dark_color">#515F9F</color>
+
+    <color name="bar_dark_color">#CECECE</color>
+    <color name="bar_meduim_color">#DFDEE0</color>
+    <color name="bar_light_color">#F2F2F2</color>
+    <color name="red_dark_color">#B30000</color>
+
+    <color name="spinner_color_bg">#849599</color>
+    <color name="hint_color">#D3D3D3</color>
+
+    <color name="half_transparent_grey">#9FA2A2A2</color>
+
+    <color name="red">#FF0000</color>
+    <color name="light_red">#FFCCCB</color>
+
+    <color name="green">#00FF00</color>
+    <color name="light_green">#90EE90</color>
+    <color name="orange_default">#f18a1d</color>
+    <color name="orange_pressed">#8f4e08</color>
+
+    <color name="color_preloader_center">#FFCCCB</color>
+    <color name="color_preloader_start">#FF0000</color>
+    <color name="color_preloader_end">#00FF00</color>
+
+</resources>
